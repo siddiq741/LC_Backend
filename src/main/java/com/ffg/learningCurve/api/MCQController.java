@@ -15,7 +15,7 @@ import org.springframework.web.bind.annotation.*;
 
 @RestController
 @RequestMapping("api/")
-@CrossOrigin(origins = "https://lc-ap.herokuapp.com/")
+@CrossOrigin
 public class MCQController {
 
     @Autowired
