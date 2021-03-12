@@ -13,16 +13,9 @@ import java.util.List;
 @RequestMapping("api/")
 public class TestController {
 
-    @Autowired
-    TestService testService;
-
-
     @GetMapping("test")
-    public List<TestTable> getData() {
-        return testService.getData();
+    public String getData() {
+        return "Working...";
     }
-
-
-
 
 }
