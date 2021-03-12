@@ -11,7 +11,7 @@ import java.util.List;
 
 @RestController
 @RequestMapping("/mtf")
-@CrossOrigin(origins = "http://localhost:3000")
+@CrossOrigin
 public class MTFController {
 
     @Autowired
