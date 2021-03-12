@@ -11,7 +11,7 @@ import java.util.List;
 
 @RestController
 @RequestMapping("/mtf")
-@CrossOrigin
+@CrossOrigin(origins = "https://lc-backend-1.herokuapp.com/")
 public class MTFController {
 
     @Autowired
